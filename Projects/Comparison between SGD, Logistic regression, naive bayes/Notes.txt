@@ -1,0 +1,25 @@
+implement and evaluate Naive Bayes and Logistic Regression
+
+compile in Uni machine
+
+dataset used in Metsis et al. paper.
+3 datasets - all experiments on all three datasets
+each dataset has training and testing subset
+and 2 directories - spam and ham
+
+1) canonical data rep - matrix of features * examples
+	- bag of words - w words, set of all unique words, each email as  vector of word freq
+	- Bernoulli model - 0/1 of length w. 1 => words appears 
+
+2) multinomial Naive Bayes algorithm
+	- uses add-one laplace
+	- All calculations in log-scale to avoid underflow
+	- learn - training set, accuracy- test set
+	- ONLY BAG OF WORDS FOR THIS
+
+3) discrete Naive Bayes described in class.
+	- add one laplace smoothing to avoid zeroes
+	- All calculations in log-scale to avoid underflow
+	- ONLY BERNOULLI MODEL
+
+4) MCAP logistic regression with L2 regularization. different lambda

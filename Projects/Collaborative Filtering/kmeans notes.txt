@@ -1,0 +1,12 @@
+following packages are needed
+alpha composite
+graphics2D
+rendering hints
+buffered image
+file
+ioexception
+imageio
+
+code does following
+
+class KMeans
